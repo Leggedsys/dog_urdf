@@ -29,7 +29,7 @@
           filename="package://dog_urdf/meshes/base_link.STL" />
       </geometry>
       <material
-        name="">
+        name="body_material">
         <color
           rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
@@ -68,7 +68,7 @@
           filename="package://dog_urdf/meshes/FL_hip.STL" />
       </geometry>
       <material
-        name="">
+        name="body_material">
         <color
           rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
@@ -95,10 +95,10 @@
     <axis
       xyz="1 0 0" />
     <limit
-      lower="-0.65"
-      upper="0.65"
-      effort="40"
-      velocity="12" />
+        lower="-0.5"
+        upper="0.5"
+        effort="40"
+        velocity="12" />
   </joint>
   <link
     name="FL_thigh">
@@ -125,7 +125,7 @@
           filename="package://dog_urdf/meshes/FL_thigh.STL" />
       </geometry>
       <material
-        name="">
+        name="body_material">
         <color
           rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
@@ -182,7 +182,7 @@
           filename="package://dog_urdf/meshes/FL_calf.STL" />
       </geometry>
       <material
-        name="">
+        name="body_material">
         <color
           rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
@@ -239,7 +239,7 @@
           filename="package://dog_urdf/meshes/FL_foot.STL" />
       </geometry>
       <material
-        name="">
+        name="foot_material">
         <color
           rgba="1 0.341176470588235 0.56078431372549 1" />
       </material>
@@ -263,8 +263,6 @@
       link="FL_calf" />
     <child
       link="FL_foot" />
-    <axis
-      xyz="0 0 0" />
   </joint>
   <link
     name="FR_hip">
@@ -291,7 +289,7 @@
           filename="package://dog_urdf/meshes/FR_hip.STL" />
       </geometry>
       <material
-        name="">
+        name="body_material">
         <color
           rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
@@ -316,12 +314,12 @@
     <child
       link="FR_hip" />
     <axis
-      xyz="1 0 0" />
+      xyz="-1 0 0" />
     <limit
-      lower="-0.65"
-      upper="0.65"
-      effort="40"
-      velocity="12" />
+        lower="-0.5"
+        upper="0.5"
+        effort="40"
+        velocity="12" />
   </joint>
   <link
     name="FR_thigh">
@@ -348,7 +346,7 @@
           filename="package://dog_urdf/meshes/FR_thigh.STL" />
       </geometry>
       <material
-        name="">
+        name="body_material">
         <color
           rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
@@ -405,7 +403,7 @@
           filename="package://dog_urdf/meshes/FR_calf.STL" />
       </geometry>
       <material
-        name="">
+        name="body_material">
         <color
           rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
@@ -462,7 +460,7 @@
           filename="package://dog_urdf/meshes/FR_foot.STL" />
       </geometry>
       <material
-        name="">
+        name="foot_material">
         <color
           rgba="1 0.341176470588235 0.56078431372549 1" />
       </material>
@@ -486,8 +484,6 @@
       link="FR_calf" />
     <child
       link="FR_foot" />
-    <axis
-      xyz="0 0 0" />
   </joint>
   <link
     name="RL_hip">
@@ -514,7 +510,7 @@
           filename="package://dog_urdf/meshes/RL_hip.STL" />
       </geometry>
       <material
-        name="">
+        name="body_material">
         <color
           rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
@@ -539,12 +535,12 @@
     <child
       link="RL_hip" />
     <axis
-      xyz="-1 0 0" />
+      xyz="1 0 0" />
     <limit
-      lower="-0.65"
-      upper="0.65"
-      effort="40"
-      velocity="12" />
+        lower="-0.5"
+        upper="0.5"
+        effort="40"
+        velocity="12" />
   </joint>
   <link
     name="RL_thigh">
@@ -571,7 +567,7 @@
           filename="package://dog_urdf/meshes/RL_thigh.STL" />
       </geometry>
       <material
-        name="">
+        name="body_material">
         <color
           rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
@@ -628,7 +624,7 @@
           filename="package://dog_urdf/meshes/RL_calf.STL" />
       </geometry>
       <material
-        name="">
+        name="body_material">
         <color
           rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
@@ -685,7 +681,7 @@
           filename="package://dog_urdf/meshes/RL_foot.STL" />
       </geometry>
       <material
-        name="">
+        name="foot_material">
         <color
           rgba="1 0.341176470588235 0.56078431372549 1" />
       </material>
@@ -709,8 +705,6 @@
       link="RL_calf" />
     <child
       link="RL_foot" />
-    <axis
-      xyz="0 0 0" />
   </joint>
   <link
     name="RR_hip">
@@ -737,7 +731,7 @@
           filename="package://dog_urdf/meshes/RR_hip.STL" />
       </geometry>
       <material
-        name="">
+        name="body_material">
         <color
           rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
@@ -764,10 +758,10 @@
     <axis
       xyz="-1 0 0" />
     <limit
-      lower="-0.65"
-      upper="0.65"
-      effort="40"
-      velocity="12" />
+        lower="-0.5"
+        upper="0.5"
+        effort="40"
+        velocity="12" />
   </joint>
   <link
     name="RR_thigh">
@@ -794,7 +788,7 @@
           filename="package://dog_urdf/meshes/RR_thigh.STL" />
       </geometry>
       <material
-        name="">
+        name="body_material">
         <color
           rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
@@ -851,7 +845,7 @@
           filename="package://dog_urdf/meshes/RR_calf.STL" />
       </geometry>
       <material
-        name="">
+        name="body_material">
         <color
           rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
       </material>
@@ -908,7 +902,7 @@
           filename="package://dog_urdf/meshes/RR_foot.STL" />
       </geometry>
       <material
-        name="">
+        name="foot_material">
         <color
           rgba="1 0.341176470588235 0.56078431372549 1" />
       </material>
@@ -932,7 +926,5 @@
       link="RR_calf" />
     <child
       link="RR_foot" />
-    <axis
-      xyz="0 0 0" />
   </joint>
 </robot>
