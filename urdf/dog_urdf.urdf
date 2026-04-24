@@ -94,6 +94,7 @@
       link="FL_hip" />
     <axis
       xyz="1 0 0" />
+    <dynamics damping="0.0" friction="0.0"/>
     <limit
         lower="-0.5"
         upper="0.5"
@@ -151,11 +152,12 @@
       link="FL_thigh" />
     <axis
       xyz="0 1 0" />
+    <dynamics damping="0.0" friction="0.0"/>
     <limit
-      lower="-1.6"
-      upper="0.8"
-      effort="55"
-      velocity="14" />
+        lower="-1.6"
+        upper="0.8"
+        effort="55"
+        velocity="14" />
   </joint>
   <link
     name="FL_calf">
@@ -208,11 +210,12 @@
       link="FL_calf" />
     <axis
       xyz="0 1 0" />
+    <dynamics damping="0.0" friction="0.0"/>
     <limit
-      lower="-2.4"
-      upper="-0.3"
-      effort="55"
-      velocity="14" />
+        lower="-2.4"
+        upper="-0.3"
+        effort="55"
+        velocity="14" />
   </joint>
   <link
     name="FL_foot">
@@ -263,6 +266,7 @@
       link="FL_calf" />
     <child
       link="FL_foot" />
+    <dont_collapse/>
   </joint>
   <link
     name="FR_hip">
@@ -315,6 +319,7 @@
       link="FR_hip" />
     <axis
       xyz="-1 0 0" />
+    <dynamics damping="0.0" friction="0.0"/>
     <limit
         lower="-0.5"
         upper="0.5"
@@ -372,11 +377,12 @@
       link="FR_thigh" />
     <axis
       xyz="0 1 0" />
+    <dynamics damping="0.0" friction="0.0"/>
     <limit
-      lower="-1.6"
-      upper="0.8"
-      effort="55"
-      velocity="14" />
+        lower="-1.6"
+        upper="0.8"
+        effort="55"
+        velocity="14" />
   </joint>
   <link
     name="FR_calf">
@@ -429,11 +435,12 @@
       link="FR_calf" />
     <axis
       xyz="0 1 0" />
+    <dynamics damping="0.0" friction="0.0"/>
     <limit
-      lower="-2.4"
-      upper="-0.3"
-      effort="55"
-      velocity="14" />
+        lower="-2.4"
+        upper="-0.3"
+        effort="55"
+        velocity="14" />
   </joint>
   <link
     name="FR_foot">
@@ -484,6 +491,7 @@
       link="FR_calf" />
     <child
       link="FR_foot" />
+    <dont_collapse/>
   </joint>
   <link
     name="RL_hip">
@@ -536,6 +544,7 @@
       link="RL_hip" />
     <axis
       xyz="1 0 0" />
+    <dynamics damping="0.0" friction="0.0"/>
     <limit
         lower="-0.5"
         upper="0.5"
@@ -593,11 +602,12 @@
       link="RL_thigh" />
     <axis
       xyz="0 1 0" />
+    <dynamics damping="0.0" friction="0.0"/>
     <limit
-      lower="-1.6"
-      upper="0.8"
-      effort="55"
-      velocity="14" />
+        lower="-1.6"
+        upper="0.8"
+        effort="55"
+        velocity="14" />
   </joint>
   <link
     name="RL_calf">
@@ -650,11 +660,12 @@
       link="RL_calf" />
     <axis
       xyz="0 1 0" />
+    <dynamics damping="0.0" friction="0.0"/>
     <limit
-      lower="-2.4"
-      upper="-0.3"
-      effort="55"
-      velocity="14" />
+        lower="-2.4"
+        upper="-0.3"
+        effort="55"
+        velocity="14" />
   </joint>
   <link
     name="RL_foot">
@@ -705,6 +716,7 @@
       link="RL_calf" />
     <child
       link="RL_foot" />
+    <dont_collapse/>
   </joint>
   <link
     name="RR_hip">
@@ -757,6 +769,7 @@
       link="RR_hip" />
     <axis
       xyz="-1 0 0" />
+    <dynamics damping="0.0" friction="0.0"/>
     <limit
         lower="-0.5"
         upper="0.5"
@@ -814,11 +827,12 @@
       link="RR_thigh" />
     <axis
       xyz="0 1 0" />
+    <dynamics damping="0.0" friction="0.0"/>
     <limit
-      lower="-1.6"
-      upper="0.8"
-      effort="55"
-      velocity="14" />
+        lower="-1.6"
+        upper="0.8"
+        effort="55"
+        velocity="14" />
   </joint>
   <link
     name="RR_calf">
@@ -871,11 +885,12 @@
       link="RR_calf" />
     <axis
       xyz="0 1 0" />
+    <dynamics damping="0.0" friction="0.0"/>
     <limit
-      lower="-2.4"
-      upper="-0.3"
-      effort="55"
-      velocity="14" />
+        lower="-2.4"
+        upper="-0.3"
+        effort="55"
+        velocity="14" />
   </joint>
   <link
     name="RR_foot">
@@ -926,5 +941,6 @@
       link="RR_calf" />
     <child
       link="RR_foot" />
+    <dont_collapse/>
   </joint>
 </robot>
