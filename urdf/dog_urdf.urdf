@@ -19,7 +19,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="3.14159 0 0" />
       <geometry>
         <mesh
           filename="package://dog_urdf/meshes/base_link.STL" />
@@ -58,7 +58,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="3.14159 0 0" />
       <geometry>
         <mesh
           filename="package://dog_urdf/meshes/FL_hip.STL" />
@@ -116,7 +116,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="3.14159 0 0" />
       <geometry>
         <mesh
           filename="package://dog_urdf/meshes/FL_thigh.STL" />
@@ -174,7 +174,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="3.14159 0 0" />
       <geometry>
         <mesh
           filename="package://dog_urdf/meshes/FL_calf.STL" />
@@ -232,7 +232,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="3.14159 0 0" />
       <geometry>
         <mesh
           filename="package://dog_urdf/meshes/FL_foot.STL" />
@@ -283,7 +283,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="3.14159 0 0" />
       <geometry>
         <mesh
           filename="package://dog_urdf/meshes/FR_hip.STL" />
@@ -341,7 +341,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="3.14159 0 0" />
       <geometry>
         <mesh
           filename="package://dog_urdf/meshes/FR_thigh.STL" />
@@ -399,7 +399,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="3.14159 0 0" />
       <geometry>
         <mesh
           filename="package://dog_urdf/meshes/FR_calf.STL" />
@@ -457,7 +457,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="3.14159 0 0" />
       <geometry>
         <mesh
           filename="package://dog_urdf/meshes/FR_foot.STL" />
@@ -508,7 +508,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="3.14159 0 0" />
       <geometry>
         <mesh
           filename="package://dog_urdf/meshes/RL_hip.STL" />
@@ -566,7 +566,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="3.14159 0 0" />
       <geometry>
         <mesh
           filename="package://dog_urdf/meshes/RL_thigh.STL" />
@@ -624,7 +624,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="3.14159 0 0" />
       <geometry>
         <mesh
           filename="package://dog_urdf/meshes/RL_calf.STL" />
@@ -682,7 +682,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="3.14159 0 0" />
       <geometry>
         <mesh
           filename="package://dog_urdf/meshes/RL_foot.STL" />
@@ -733,7 +733,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="3.14159 0 0" />
       <geometry>
         <mesh
           filename="package://dog_urdf/meshes/RR_hip.STL" />
@@ -791,7 +791,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="3.14159 0 0" />
       <geometry>
         <mesh
           filename="package://dog_urdf/meshes/RR_thigh.STL" />
@@ -849,7 +849,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="3.14159 0 0" />
       <geometry>
         <mesh
           filename="package://dog_urdf/meshes/RR_calf.STL" />
@@ -907,7 +907,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="3.14159 0 0" />
       <geometry>
         <mesh
           filename="package://dog_urdf/meshes/RR_foot.STL" />
