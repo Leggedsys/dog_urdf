@@ -948,10 +948,10 @@
     <origin xyz="0.238 -0.012 0.068" rpy="0 0.5236 0"/>
   </joint>
 
-  <gazebo reference="FL_foot"><mu1>1.0</mu1><mu2>1.0</mu2><kp>15000.0</kp><kd>200.0</kd><minDepth>0.002</minDepth><maxVel>1.0</maxVel></gazebo>
-  <gazebo reference="FR_foot"><mu1>1.0</mu1><mu2>1.0</mu2><kp>15000.0</kp><kd>200.0</kd><minDepth>0.002</minDepth><maxVel>1.0</maxVel></gazebo>
-  <gazebo reference="RL_foot"><mu1>1.0</mu1><mu2>1.0</mu2><kp>15000.0</kp><kd>200.0</kd><minDepth>0.002</minDepth><maxVel>1.0</maxVel></gazebo>
-  <gazebo reference="RR_foot"><mu1>1.0</mu1><mu2>1.0</mu2><kp>15000.0</kp><kd>200.0</kd><minDepth>0.002</minDepth><maxVel>1.0</maxVel></gazebo>
+  <gazebo reference="FL_foot"><mu1>100.0</mu1><mu2>100.0</mu2><kp>60.0</kp><kd>10.0</kd><minDepth>0.002</minDepth><maxVel>1.0</maxVel></gazebo>
+  <gazebo reference="FR_foot"><mu1>100.0</mu1><mu2>100.0</mu2><kp>60.0</kp><kd>10.0</kd><minDepth>0.002</minDepth><maxVel>1.0</maxVel></gazebo>
+  <gazebo reference="RL_foot"><mu1>100.0</mu1><mu2>100.0</mu2><kp>60.0</kp><kd>10.0</kd><minDepth>0.002</minDepth><maxVel>1.0</maxVel></gazebo>
+  <gazebo reference="RR_foot"><mu1>100.0</mu1><mu2>100.0</mu2><kp>60.0</kp><kd>10.0</kd><minDepth>0.002</minDepth><maxVel>1.0</maxVel></gazebo>
 
   <ros2_control name="gazebo_system" type="system">
     <hardware><plugin>gazebo_ros2_control/GazeboSystem</plugin></hardware>
